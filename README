@@ -1,0 +1,17 @@
+= javaeye4r
+
+* Project Website - http://github.com/isamsam/javaeye4r
+
+== Developers
+* {samsam}[http://isamsam.com] <yanguango at gmail dot com>
+
+== Description
+* A ruby client for JavaEye api
+
+== External Dependencies
+* Ruby 1.8 (tested with 1.8.7)
+
+== Usage Examples
+* get chat timeline
+* create new chat
+* view chats that reply to you
