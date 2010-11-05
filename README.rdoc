@@ -2,7 +2,7 @@
 
 A ruby client for JavaEye api
 
-* Project Website - http://github.com/isamsam/javaeye4r
+* Project Website - http://github.com/bl0ck/javaeye4r
 
 = Developers
 * {samsam}[http://isamsam.com] <yanguango at gmail dot com>
