@@ -1,22 +1,21 @@
-= javaeye4r
+= javaeye4r gem
+
+A ruby client for JavaEye api
 
 * Project Website - http://github.com/isamsam/javaeye4r
 
-== Developers
+= Developers
 * {samsam}[http://isamsam.com] <yanguango at gmail dot com>
 
-== Description
-* A ruby client for JavaEye api
-
-== External Dependencies
+= External Dependencies
 * Ruby 1.8 (tested with 1.8.7)
 
-== Features
+= Features
 * get chat timeline
 * create new chat
 * view chats that reply to you
 
-== Code example
+= Code example
 
 require "rubygems"
 require "javaeye4r"
@@ -31,7 +30,7 @@ client.get_list.each do |post|
  puts post.user.name + ":   " + post.body
 end
 
-== Change log
+= Change log
 
 fix bug:
 ubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- javaeye4r (LoadError)
