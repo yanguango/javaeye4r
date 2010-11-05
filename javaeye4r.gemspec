@@ -7,7 +7,14 @@ Gem::Specification.new do |s|
   s.date = %q{2010-3-31}  
   s.description = %q{A ruby client for JavaEye api}  
   s.email = %q{yanguango@gmail.com}  
-  s.files = ["README", "lib/javaeye.rb", "javaeye4r.gemspec"]  
+  s.files = ["README",
+    "lib/javaeye4r.rb", 
+    "lib/javaeye.rb", 
+    "lib/javaeye/base.rb", 
+    "lib/javaeye/chat.rb",
+    "lib/javaeye/client.rb",
+    "lib/javaeye/user.rb", 
+    "javaeye4r.gemspec"]  
   s.homepage = %q{http://github.com/isamsam/javaeye4r}
   s.require_paths = ["lib"]  
   s.rubygems_version = %q{0.1.0}  

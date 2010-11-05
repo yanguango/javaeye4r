@@ -30,3 +30,8 @@ puts client.verify.to_s
 client.get_list.each do |post|
  puts post.user.name + ":   " + post.body
 end
+
+== Change log
+
+fix bug:
+ubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- javaeye4r (LoadError)
