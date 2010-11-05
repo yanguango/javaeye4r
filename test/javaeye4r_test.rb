@@ -1,7 +1,7 @@
 require "rubygems"
 require "javaeye4r"
 
-client = JavaEye::Client.new("qichunren", "qichunrenjavaeye8")
+client = JavaEye::Client.new("your-javaeye-id", "your-javaeye-password")
 
 # this show client reponse code, "true" means 200 http response code.
 puts client.verify.to_s  

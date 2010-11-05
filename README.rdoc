@@ -17,18 +17,18 @@ A ruby client for JavaEye api
 
 = Code example
 
-require "rubygems"
-require "javaeye4r"
+  require "rubygems"
+  require "javaeye4r"
 
-client = JavaEye::Client.new("your_javaeye_id", "your_javaeye_password")
+  client = JavaEye::Client.new("your_javaeye_id", "your_javaeye_password")
 
-# this show client reponse code, "true" means 200 http response code.
-puts client.verify.to_s  
+  # this show client reponse code, "true" means 200 http response code.
+  puts client.verify.to_s  
 
-# get your chat message list in chat app index page:http://app.javaeye.com/chat
-client.get_list.each do |post|
- puts post.user.name + ":   " + post.body
-end
+  # get your chat message list in chat app index page:http://app.javaeye.com/chat
+  client.get_list.each do |post|
+   puts post.user.name + ":   " + post.body
+  end
 
 = Change log
 
