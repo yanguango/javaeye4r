@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.0"  
   
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=  
-  s.authors = ["samsam"]  
+  s.authors = ["yanguango"]  
   s.date = %q{2010-3-31}  
   s.description = %q{A ruby client for JavaEye api}  
   s.email = %q{yanguango@gmail.com}  
@@ -15,14 +15,14 @@ Gem::Specification.new do |s|
     "lib/javaeye/client.rb",
     "lib/javaeye/user.rb", 
     "javaeye4r.gemspec"]  
-  s.homepage = %q{http://github.com/isamsam/javaeye4r}
+  s.homepage = %q{http://github.com/yanguango/javaeye4r}
   s.require_paths = ["lib"]  
-  s.rubygems_version = %q{0.1.0}  
+  s.rubygems_version = %q{0.1.1}  
   s.summary = %q{A ruby client for JavaEye api}  
   
   if s.respond_to? :specification_version then  
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION  
-    s.specification_version = 3  
+    s.specification_version = 4
   
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then  
     else  
